@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>
+    compte rendu
+  </title>
+</head>
+<body>
+  <h2>table</h2>
+  <table border="1">
+    <tbody>
+      <script>
+        document.write('<th>');
+        document.write(`<tt>x</tt>`);
+        for (var i =0  ;i<=9; i++) {
+          document.write('<tr>');
+          document.write(`<tt>${i}</tt>`);
+        }
+        for (var i =0  ;i<=9; i++) {
+          document.write('<tr>');
+          document.write(`<tt>${i}</tt>`);
+          for (var j =0  ;j<=9; j++) {
+            document.write(`<td>${i*j}</td>`);
+          }
+        }
+      </script>
+    </tbody>
+  </table>
+</body>
+</html>
